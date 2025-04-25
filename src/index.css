@@ -1,1 +1,22 @@
 @import 'tailwindcss';
+
+@theme {
+  --color-*: initial;
+  --color-white: #ffffff;
+  --color-gray-100: #f7f3f6;
+  --color-gray-200: #f4e6f0;
+  --color-gray-300: #7a6e76;
+  --color-gray-400: #332e32;
+
+  --color-green-light: #cddfcc;
+  --color-green-base: #52a350;
+  --color-green-dark: #2f5c2d;
+
+  --color-pink-light: #e9cce1;
+  --color-pink-base: #c257a4;
+  --color-pink-dark: #884074;
+
+  --font-sans: "Cairo", sans-serif;
+
+  --shadow-sm: 0px 4px 8px 0px rgba(54, 23, 45, 0.05);
+}
