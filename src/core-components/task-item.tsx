@@ -11,7 +11,7 @@ import CheckIcon from "../assets/icons/check.svg?react";
 import InputText from "../components/input-text";
 
 export default function TaskItem() {
-  const [isEditing, setIsEditing] = React.useState(true);
+  const [isEditing, setIsEditing] = React.useState(false);
 
   function handleEditTask() {
     setIsEditing(true);
